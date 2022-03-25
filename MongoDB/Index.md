@@ -50,6 +50,7 @@ db.{db_name}.createIndex({ "{array_name}.{element_name}": 1 })
 ```
 
 ## TTL 인덱스 설정하기
+-  TTL 적용 시, 당연하겠지만 이미 TTL이 지난 데이터는 삭제된다.
 
 ## 기타
 
