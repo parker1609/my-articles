@@ -13,7 +13,7 @@ gradle clean -> build
   - [X] Clear file system cache and Local History
   - [X] Clear VCS Log caches and indexes (기본값)
   - [X] Clear downloaded shared indexes (기본값)
-  - [O] Ask before downloading new shared indexes
+  - [ ] Ask before downloading new shared indexes
 
 [Invalidate caches](https://www.jetbrains.com/help/idea/2021.2/invalidate-caches.html)
 
