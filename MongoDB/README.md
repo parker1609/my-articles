@@ -56,6 +56,9 @@ db.{db_name}.find().explain("executionStats")
 db.{db_name}.createIndex({ "{array_name}.{element_name}": 1 })
 ```
 
+- `$elemMatch`는 복합키 인덱스가 적용되지 않는다.
+  - 인덱스 스캔보다 전체 스캔이 빠를 수도 있음.
+
 ### TTL 인덱스 설정하기
 -  TTL 적용 시, 당연하겠지만 이미 TTL이 지난 데이터는 삭제된다.
 
